@@ -87,8 +87,13 @@ export const Header: React.FC<HeaderProps> = ({
           
           {/* Logo & Title */}
           <div className="flex items-center space-x-3">
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-emerald-600 to-teal-500 flex items-center justify-center shadow-md shadow-emerald-900/30">
-              <Moon className="w-6 h-6 text-emerald-100" />
+            <div className="w-11 h-11 rounded-xl bg-slate-950 p-0.5 border border-emerald-500/40 shadow-md shadow-emerald-950/50 overflow-hidden flex-shrink-0">
+              <img
+                src="/icon-192.png"
+                alt="Falakiyah Ghuroba Logo"
+                className="w-full h-full object-cover rounded-lg"
+                referrerPolicy="no-referrer"
+              />
             </div>
             <div>
               <div className="flex items-center space-x-2">
@@ -96,7 +101,7 @@ export const Header: React.FC<HeaderProps> = ({
                   Digital Falak Engine
                 </h1>
                 <span className="px-2 py-0.5 text-xs font-semibold rounded-full bg-emerald-950 text-emerald-300 border border-emerald-800">
-                  v1.0 TypeScript
+                  Falakiyah Ghuroba
                 </span>
               </div>
               <p className="text-xs text-slate-400">

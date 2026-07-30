@@ -1,24 +1,67 @@
 {
-  "short_name": "DigitalFalak",
-  "name": "Digital Falak Engine",
+  "id": "falakiyah-ghuroba-pwa",
+  "name": "Digital Falak Engine - Falakiyah Ghuroba",
+  "short_name": "Falakiyah",
   "description": "Aplikasi Web Falakiyyah, Waktu Salat, Jam Istiwak, Arah Kiblat, dan Hisab Hilal MABIMS Baru",
+  "lang": "id",
+  "dir": "ltr",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#020617",
+  "background_color": "#020617",
+  "categories": ["utilities", "lifestyle", "education"],
   "icons": [
     {
       "src": "/icon-192.png",
       "type": "image/png",
       "sizes": "192x192",
-      "purpose": "any maskable"
+      "purpose": "any"
     },
     {
       "src": "/icon-512.png",
       "type": "image/png",
       "sizes": "512x512",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512-maskable.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
     }
   ],
-  "start_url": "/",
-  "background_color": "#020617",
-  "theme_color": "#059669",
-  "display": "standalone",
-  "orientation": "portrait"
+  "screenshots": [
+    {
+      "src": "/screenshot-mobile.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Tampilan Jam Istiwak & Waktu Salat Mobile"
+    },
+    {
+      "src": "/screenshot-desktop.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Dashboard Hisab Falakiyah Ghuroba Desktop"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Jam Istiwak",
+      "short_name": "Istiwak",
+      "description": "Buka Jam Istiwak & Waktu Hakiki",
+      "url": "/#istiwak",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Hisab Hilal",
+      "short_name": "Hilal",
+      "description": "Kalkulator Hisab Hilal MABIMS Baru",
+      "url": "/#hilal",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
 }
