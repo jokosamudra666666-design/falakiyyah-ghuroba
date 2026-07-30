@@ -1,5 +1,5 @@
 {
-  "name": "Digital Falak Engine",
+  "name": "Digital Falak Engine - Falakiyah Ghuroba",
   "description": "Aplikasi Web Falakiyyah & Engine Kalkulasi Waktu Salat, Jam Istiwak, Arah Kiblat, Hisab Hilal MABIMS, dan Astronomi Islam",
   "requestFramePermissions": ["geolocation"],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
