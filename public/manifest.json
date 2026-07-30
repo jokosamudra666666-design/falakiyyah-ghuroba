@@ -20,12 +20,6 @@
       "purpose": "any"
     },
     {
-      "src": "/icon-192.png",
-      "type": "image/png",
-      "sizes": "192x192",
-      "purpose": "maskable"
-    },
-    {
       "src": "/icon-512.png",
       "type": "image/png",
       "sizes": "512x512",
@@ -60,28 +54,14 @@
       "short_name": "Istiwak",
       "description": "Buka Jam Istiwak & Waktu Hakiki",
       "url": "/#istiwak",
-      "icons": [
-        {
-          "src": "/icon-192.png",
-          "sizes": "192x192",
-          "type": "image/png",
-          "purpose": "any"
-        }
-      ]
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
     },
     {
       "name": "Hisab Hilal",
       "short_name": "Hilal",
       "description": "Kalkulator Hisab Hilal MABIMS Baru",
       "url": "/#hilal",
-      "icons": [
-        {
-          "src": "/icon-192.png",
-          "sizes": "192x192",
-          "type": "image/png",
-          "purpose": "any"
-        }
-      ]
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
     }
   ]
 }
